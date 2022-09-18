@@ -13,7 +13,7 @@ class MyAdapter(val personList: MutableList<Person>) : RecyclerView.Adapter<MyAd
         val textView: TextView
         val deleteImage: ImageView
         init {
-            textView = view.findViewById(R.id.text_view)
+            textView = view.findViewById(R.id.name)
             deleteImage = view.findViewById(R.id.deleteImg)
         }
     }
